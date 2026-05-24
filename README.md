@@ -1,4 +1,4 @@
-# BackgroundActivity
+# background-activity
 
 A small, energy-aware wrapper around `NSBackgroundActivityScheduler` for macOS. Run periodic work without keeping the CPU pinned, and *also* run it the moment the user comes back to the app — the part Apple's API leaves you to wire up yourself.
 
