@@ -24,7 +24,7 @@ Requires macOS 14.
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/kageroumado/BackgroundActivity", from: "1.0.0"),
+    .package(url: "https://github.com/kageroumado/background-activity", from: "1.0.0"),
 ],
 targets: [
     .target(name: "App", dependencies: ["BackgroundActivity"]),

@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "BackgroundActivity",
+    name: "background-activity",
     platforms: [.macOS(.v14)],
     products: [
         .library(name: "BackgroundActivity", targets: ["BackgroundActivity"]),
